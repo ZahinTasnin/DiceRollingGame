@@ -1,0 +1,92 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  display: grid;
+  grid-template-columns: 65% 35%;
+  justify-content: center;
+  background-color: #FFECD1;
+}
+
+.main{
+  display:flex;
+  flex-direction: column;
+  background-color: #15616D;
+  margin: 1vw;
+  padding:1vw;
+  align-items: stretch;
+  height:fit-content;
+}
+
+.rollButton{
+  background-color: #FF7D00;
+  color: #FFECD1;
+  border-radius: .5vw;
+  margin-bottom: 1vw;
+  font-family: 'Dosis', sans-serif;  
+  font-size: 2.5vw;
+  box-shadow: 3px 3px 0 0.55px #FFECD1; 
+  border:none;
+  width: 12vw;
+}
+
+.rollButton:hover, .rollButton:active{
+  transition-duration: 0.5s;
+}
+
+.inputBox{
+  width:6vw;
+  height:1.8vw;
+  font-size: 2vw;
+  margin-bottom: 2vw;
+}
+
+.inputForm{
+  font-family: 'Dosis', sans-serif;  
+  font-size: 2.5vw;
+  color:#FFECD1;
+  vertical-align: -10%;
+}
+
+.house{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 1vw;
+}
+
+.table2{
+  border:2px solid #15616D;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5vw;
+  color: #78290F;
+  height: 5vw;
+  margin-right:1vw;
+}
+
+.table1{
+  border:2px solid #15616D;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5vw;
+  height: 4vw;
+}
+
+td, th{
+  border:1px solid #15616D;
+  padding-top:0.5vw;
+  padding-bottom:0.5vw;
+  padding-right: 1.5vw;
+  padding-left: 1.5vw;
+  color:#78290F;
+}
+
+th{
+  background-color: #FF7D00;
+  color: #FFECD1;
+}
+
+
+
+
